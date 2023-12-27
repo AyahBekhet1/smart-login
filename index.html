@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Login</title>
+    <link rel="shortcut icon" href="computer-icons-login-favicon-black-login-icon.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container py-5 my-5">
+      <div class="row sign-form position-relative">
+        <div class="col-md-6 position-relative form-col">
+          <div class="full-form">
+            <div class="form-piece sign-up">
+              <h2>Create Account</h2>
+              <form>
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control sign-up-name"
+                    id="floatingName"
+                    placeholder="Name"
+                  />
+                  <label for="floatingName">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control sign-up-email"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control sign-up-pass"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="error">
+      
+                </div>
+                <button class="btn sign-btn mt-5 sign-up-btn rounded-pill">SIGN UP</button>
+              </form>
+            </div>
+            <div class="form-piece  sign-in">
+              <h2>Sign in</h2>
+              <form>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control sign-in-email"
+                    id="floatingInput1"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput1">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control sign-in-pass"
+                    id="floatingPassword1"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword1">Password</label>
+                </div>
+                <div class="error2">
+                  
+                </div>
+                <div class="forget-pass d-flex align-items-center justify-content-center">
+                  <span class='mt-5 mb-5'>Forget your password?</span>
+                </div>
+                <button class="btn sign-btn sign-in-btn rounded-pill">SIGN IN</button>
+                  
+              </form>
+            </div>  
+          </div>
+        </div>
+
+        <div class="col-md-6 position-relative overlay-col">
+          <div class="overlay-full">
+
+            <div class="overlay sign-in-overlay">
+              <div class="overlay-content">
+                <h2>Welcome Back</h2>
+                <p>
+                  To keep connected with us please login with your personal info
+                </p>
+                <button class="rounded-pill overlay-btn" id="sign-in-btn-overlay">
+                  SIGN IN
+                </button>
+              </div>
+            </div>
+            <div class="overlay sign-up-overlay">
+              <div class="overlay-content">
+                <h2 class="overlay-title">Hello,Friend!</h2>
+                <p class="overlay-paragraph">Enter your personal details and start journey with us</p>
+                <button class="rounded-pill overlay-btn" id="sign-up-btn-overlay">
+                  SIGN UP
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+      </div>
+
+
+    </div>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
